@@ -1,0 +1,83 @@
+[
+  {
+    "name": "stop_road_mark",
+    "id": 5438570,
+    "color": "#15dc57",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "id": 1774155,
+        "name": "visibility",
+        "input_type": "radio",
+        "mutable": true,
+        "values": [
+          "clear",
+          "partially_occluded",
+          "occluded"
+        ],
+        "default_value": "clear"
+      }
+    ]
+  },
+  {
+    "name": "stop_road_line",
+    "id": 5438579,
+    "color": "#f31b3f",
+    "type": "polyline",
+    "attributes": [
+      {
+        "id": 1774157,
+        "name": "visibility",
+        "input_type": "radio",
+        "mutable": true,
+        "values": [
+          "clear",
+          "partially_occluded",
+          "occluded"
+        ],
+        "default_value": "clear"
+      }
+    ]
+  },
+  {
+    "name": "stop_sign",
+    "id": 5439020,
+    "color": "#f00080",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "id": 1774156,
+        "name": "visibility",
+        "input_type": "radio",
+        "mutable": true,
+        "values": [
+          "clear",
+          "partially_occluded",
+          "occluded"
+        ],
+        "default_value": "clear"
+      }
+    ]
+  },
+  {
+    "name": "ego_behavior",
+    "id": 5439029,
+    "color": "#eabb2e",
+    "type": "tag",
+    "attributes": [
+      {
+        "id": 1774158,
+        "name": "movement",
+        "input_type": "radio",
+        "mutable": true,
+        "values": [
+          "rolling",
+          "slowing_down",
+          "stopping",
+          "speeding_up"
+        ],
+        "default_value": "rolling"
+      }
+    ]
+  }
+]
